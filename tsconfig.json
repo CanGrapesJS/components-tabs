@@ -1,4 +1,13 @@
 {
+  "compilerOptions": {
+    "module": "esnext"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "commonjs"
+    }
+  },
   "extends": "./node_modules/grapesjs-cli/dist/template/tsconfig.json",
   "include": ["src"]
 }
